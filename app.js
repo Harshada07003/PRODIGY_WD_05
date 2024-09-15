@@ -4,7 +4,7 @@
         city = 'Ratnagiri';
     }
 
-    const apiKey = "f78aac73c159f87060a914a656d2c09d";
+    const apiKey = "your apikey";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
